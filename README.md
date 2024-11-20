@@ -1,8 +1,8 @@
-## Slot Machine Game
+# Slot Machine Game
 
 This is a basic slot machine game built using vanilla JavaScript. It allows players to deposit money, place bets, spin the reels, and win based on matching symbols. The game runs entirely in the console and utilizes the prompt-sync library for user input.
 
-# Features
+## Features
 
 	1.	Deposit Money: Players start by depositing an amount to set their initial balance.
 	2.	Choose Bet Lines: Players can bet on 1 to 3 lines.
@@ -11,7 +11,7 @@ This is a basic slot machine game built using vanilla JavaScript. It allows play
 	5.	Determine Winnings: Calculate winnings based on matching symbols and the bet amount.
 	6.	Play Again Option: Allows players to continue playing as long as they have a positive balance.
 
-## Core Functionalities
+# Core Functionalities
 
 # Counter Functionality
 
@@ -20,13 +20,13 @@ This is a basic slot machine game built using vanilla JavaScript. It allows play
 	•	Balance Increment: Winnings are added to the balance after each spin if the player wins.
 	•	The game displays the updated balance after each round.
 
-## Transposition Functionality
+# Transposition Functionality
 
-# The transposition functionality converts the columns of the slot machine into rows for easier evaluation:
+## The transposition functionality converts the columns of the slot machine into rows for easier evaluation:
 	•	Input: A 3x3 grid where each column represents a reel.
 	•	Output: A transposed 3x3 grid where each row corresponds to a potential winning line.
 
-# For example:
+## For example:
 	•	Reels (Columns):
     A | B | C
     D | B | C
@@ -37,9 +37,9 @@ This is a basic slot machine game built using vanilla JavaScript. It allows play
     B | B | B
     C | C | A
 
-## How to Run the Project
+# How to Run the Project
 
-# Prerequisites
+## Prerequisites
 
 	1.	Node.js: Ensure Node.js is installed on your system. You can download it from Node.js.
 	2.	Install prompt-sync:
@@ -47,7 +47,7 @@ This is a basic slot machine game built using vanilla JavaScript. It allows play
     
     npm install prompt-sync
 
-# Steps to Run
+## Steps to Run
 
 	1.	Clone or download the project files to your local machine.
 	2.	Navigate to the project directory in your terminal:
@@ -64,21 +64,21 @@ This is a basic slot machine game built using vanilla JavaScript. It allows play
         •	Place your bet and spin the reels.
         •	Decide whether to play again after each round.
 
-## Example Gameplay
+# Example Gameplay
 
-# Initial Deposit
+## Initial Deposit
 
     Enter a deposit amount: 50
 
-# Select Lines
+## Select Lines
 
     Enter the number of lines to bet on (1-3): 2
 
-# Place a Bet
+## Place a Bet
 
     Enter the bet per line: 5
 
-# Spin and Results
+## Spin and Results
 
     You have a balance of $40
     A | D | D
@@ -87,7 +87,7 @@ This is a basic slot machine game built using vanilla JavaScript. It allows play
     You won, $20
     Your new balance is $60
 
-# Play Again Prompt
+## Play Again Prompt
 
     Do you want to play again y/n? y
 
