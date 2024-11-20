@@ -66,19 +66,19 @@ This is a basic slot machine game built using vanilla JavaScript. It allows play
 
 ## Example Gameplay
 
-    Initial Deposit
+# Initial Deposit
 
     Enter a deposit amount: 50
 
-    Select Lines
+# Select Lines
 
     Enter the number of lines to bet on (1-3): 2
 
-    Place a Bet
+# Place a Bet
 
     Enter the bet per line: 5
 
-    Spin and Results
+# Spin and Results
 
     You have a balance of $40
     A | D | D
@@ -87,7 +87,7 @@ This is a basic slot machine game built using vanilla JavaScript. It allows play
     You won, $20
     Your new balance is $60
 
-    Play Again Prompt
+# Play Again Prompt
 
     Do you want to play again y/n? y
 
